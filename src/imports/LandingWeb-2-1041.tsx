@@ -1,0 +1,282 @@
+import svgPaths from "./svg-o2558dm5ae";
+import imgRectangle14 from "figma:asset/58e86cbe74003e6fb69944de74d0dea5b40de6de.png";
+import imgRectangle15 from "figma:asset/41c1a10e3833bd0975db4e869609b0ce06495c70.png";
+import imgRectangle16 from "figma:asset/27fddfd3654770f677e6e7e4b3e8e666080fae46.png";
+import imgMapPlaceholder from "figma:asset/6287e279e54e87c6582cf5f2281ccd03b91bd3fe.png";
+import imgImgPlaceholder from "figma:asset/9917ddc3f11635b70e4743f941dfb83c3dc158ee.png";
+import { imgHeroContent } from "./svg-4c1o4";
+
+function Services() {
+  return (
+    <div className="content-stretch flex flex-col gap-2.5 items-start justify-end relative size-full" data-name="services">
+      <div className="absolute h-[614.55px] left-[-414.08px] top-[-28.41px] w-[1706.16px]" data-name="vector">
+        <div className="absolute inset-[-0.24%_-0.09%]">
+          <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 1710 619">
+            <path d={svgPaths.p3ecbcce0} id="vector" stroke="var(--stroke-0, #CAD1C6)" strokeLinecap="round" strokeWidth="3" />
+          </svg>
+        </div>
+      </div>
+      <div className="font-['Segoe_UI:Bold',_sans-serif] leading-[0] min-w-full not-italic relative shrink-0 text-[#576250] text-[32px] text-center tracking-[-0.64px]" style={{ width: "min-content" }}>
+        <p className="leading-[40px]">Ablauf</p>
+      </div>
+      <div className="bg-[rgba(250,250,250,0.5)] h-[373px] relative rounded-[24px] shrink-0 w-full" data-name="service-cards">
+        <div className="flex flex-row items-center justify-center relative size-full">
+          <div className="box-border content-stretch flex gap-4 h-[373px] items-center justify-center px-8 py-0 relative w-full">
+            <div className="h-[298px] relative shrink-0 w-[248px]" data-name="service-card">
+              <div className="absolute bg-white h-[298px] left-0 rounded-[8px] shadow-[0px_4px_10px_0px_rgba(0,0,0,0.1)] top-0 w-[248px]" />
+              <div className="absolute font-['Segoe_UI:Regular',_sans-serif] leading-[24px] left-[123px] not-italic text-[#90998b] text-[16px] text-center text-nowrap top-[238px] translate-x-[-50%] whitespace-pre">
+                <p className="font-['Segoe_UI:Bold',_sans-serif] mb-0">Sektempfang</p>
+                <p>16:00 Uhr</p>
+              </div>
+              <div className="absolute bg-center bg-cover bg-no-repeat h-[210px] left-3 rounded-tl-[8px] rounded-tr-[8px] top-3 w-[223px]" style={{ backgroundImage: `url('${imgRectangle14}')` }} />
+            </div>
+            <div className="h-[298px] relative shrink-0 w-[248px]" data-name="service-card">
+              <div className="absolute bg-white h-[298px] left-0 rounded-[8px] shadow-[0px_4px_10px_0px_rgba(0,0,0,0.1)] top-0 w-[248px]" />
+              <div className="absolute font-['Segoe_UI:Bold',_sans-serif] leading-[0] left-[125px] not-italic text-[#90998b] text-[16px] text-center text-nowrap top-[238px] translate-x-[-50%]">
+                <p className="leading-[24px] whitespace-pre">
+                  <span>
+                    Trauung
+                    <br aria-hidden="true" />
+                  </span>
+                  <span className="font-['Segoe_UI:Regular',_sans-serif] not-italic">17:00 Uhr</span>
+                </p>
+              </div>
+              <div className="absolute bg-center bg-cover bg-no-repeat h-[210px] left-[13px] rounded-tl-[8px] rounded-tr-[8px] top-3 w-[223px]" style={{ backgroundImage: `url('${imgRectangle15}')` }} />
+            </div>
+            <div className="h-[298px] relative shrink-0 w-[248px]" data-name="service-card">
+              <div className="absolute bg-white h-[298px] left-0 rounded-[8px] shadow-[0px_4px_10px_0px_rgba(0,0,0,0.1)] top-0 w-[248px]" />
+              <div className="absolute font-['Segoe_UI:Bold',_sans-serif] leading-[0] left-[124px] not-italic text-[#90998b] text-[16px] text-center text-nowrap top-[238px] translate-x-[-50%]">
+                <p className="leading-[24px] whitespace-pre">
+                  <span>
+                    Dinner
+                    <br aria-hidden="true" />
+                  </span>
+                  <span className="font-['Segoe_UI:Regular',_sans-serif] not-italic">19:00 Uhr</span>
+                </p>
+              </div>
+              <div className="absolute bg-center bg-cover bg-no-repeat h-[210px] left-3 rounded-tl-[8px] rounded-tr-[8px] top-3 w-[223px]" style={{ backgroundImage: `url('${imgRectangle16}')` }} />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function Locations() {
+  return (
+    <div className="content-stretch flex flex-col gap-6 items-center justify-start relative size-full" data-name="locations">
+      <div className="content-stretch flex flex-col gap-1 items-center justify-start leading-[0] not-italic relative shrink-0 text-center w-full" data-name="section-header">
+        <div className="font-['Segoe_UI:Bold',_sans-serif] relative shrink-0 text-[#576250] text-[32px] tracking-[-0.64px] w-full">
+          <p className="leading-[40px]">Übersicht naheliegende Hotels</p>
+        </div>
+        <div className="font-['Segoe_UI:Regular',_sans-serif] relative shrink-0 text-[#b8c1b2] text-[16px] w-full">
+          <ul className="css-ed5n1g">
+            <li className="list-disc list-inside ms-6">
+              <span className="leading-[24px] text-[16px]">&nbsp;</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function ContactUs() {
+  return (
+    <div className="bg-white relative size-full" data-name="contact-us">
+      <div className="flex flex-col items-center relative size-full">
+        <div className="box-border content-stretch flex flex-col gap-[159px] items-center justify-start px-[200px] py-14 relative size-full">
+          <div className="content-stretch flex flex-col gap-6 items-center justify-start relative shrink-0 w-full" data-name="left-content">
+            <div className="content-stretch flex flex-col gap-1 items-center justify-start leading-[0] not-italic relative shrink-0" data-name="section-header">
+              <div className="font-['Segoe_UI:Bold',_sans-serif] relative shrink-0 text-[#576250] text-[32px] text-nowrap tracking-[-0.64px]">
+                <p className="leading-[40px] whitespace-pre">Contact us</p>
+              </div>
+              <div className="font-['Segoe_UI:Regular',_sans-serif] relative shrink-0 text-[#b8c1b2] text-[16px] text-center w-[411px]">
+                <p className="leading-[24px]">For more information please contact</p>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col gap-2 items-start justify-start relative shrink-0" data-name="fields-group">
+              <div className="font-['Segoe_UI:Regular',_sans-serif] leading-[0] not-italic relative shrink-0 text-[#576250] text-[16px] text-center w-full">
+                <p className="leading-[24px]">Trauzeugen Braut</p>
+              </div>
+              <div className="content-stretch flex gap-2 items-start justify-start relative shrink-0 w-full" data-name="head-office">
+                <div className="content-stretch flex gap-2 items-start justify-start relative shrink-0">
+                  <div className="font-['Segoe_UI:Regular',_sans-serif] leading-[0] not-italic relative shrink-0 text-[#90998b] text-[16px] text-center w-[248px]">
+                    <p className="leading-[24px]">Geraldine Reiss-Henneberger Mobile: +39 328 2211212</p>
+                  </div>
+                </div>
+              </div>
+              <div className="content-stretch flex gap-2 items-start justify-start relative shrink-0 w-full" data-name="head-office">
+                <div className="content-stretch flex flex-col gap-2 items-start justify-start relative shrink-0">
+                  <div className="font-['Segoe_UI:Regular',_sans-serif] leading-[24px] not-italic relative shrink-0 text-[#90998b] text-[16px] text-center w-[248px]">
+                    <p className="mb-0">Marie Beuse</p>
+                    <p>Mobile: +39 328 2211212</p>
+                  </div>
+                </div>
+              </div>
+              <div className="content-stretch flex gap-2 items-start justify-start relative shrink-0 w-full" data-name="head-office">
+                <div className="content-stretch flex flex-col gap-2 items-start justify-start relative shrink-0">
+                  <div className="font-['Segoe_UI:Regular',_sans-serif] leading-[24px] not-italic relative shrink-0 text-[#90998b] text-[16px] text-center w-[248px]">
+                    <p className="mb-0">Mandy Holland</p>
+                    <p>Mobile: +39 328 2211212</p>
+                  </div>
+                </div>
+              </div>
+              <div className="content-stretch flex gap-2 items-start justify-start relative shrink-0 w-full" data-name="head-office">
+                <div className="content-stretch flex flex-col gap-2 items-start justify-start relative shrink-0">
+                  <div className="font-['Segoe_UI:Regular',_sans-serif] leading-[24px] not-italic relative shrink-0 text-[#90998b] text-[16px] text-center w-[248px]">
+                    <p className="mb-0">Ines Geuder</p>
+                    <p>Mobile: +39 328 2211212</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col gap-2 items-start justify-start relative shrink-0" data-name="fields-group">
+              <div className="font-['Segoe_UI:Regular',_sans-serif] leading-[0] min-w-full not-italic relative shrink-0 text-[#576250] text-[16px] text-center" style={{ width: "min-content" }}>
+                <p className="leading-[24px]">Trauzeugen Bräutigam</p>
+              </div>
+              <div className="content-stretch flex flex-col gap-2 items-start justify-start relative shrink-0" data-name="head-office">
+                <div className="content-stretch flex flex-col gap-2 items-start justify-start relative shrink-0">
+                  <div className="font-['Segoe_UI:Regular',_sans-serif] leading-[24px] not-italic relative shrink-0 text-[#90998b] text-[16px] text-center w-[248px]">
+                    <p className="mb-0">Jounes Bökenkamp</p>
+                    <p>Mobile: +39 328 2211212</p>
+                  </div>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col gap-2 items-start justify-start relative shrink-0" data-name="head-office">
+                <div className="content-stretch flex flex-col gap-2 items-start justify-start relative shrink-0">
+                  <div className="font-['Segoe_UI:Regular',_sans-serif] leading-[24px] not-italic relative shrink-0 text-[#90998b] text-[16px] text-center w-[248px]">
+                    <p className="mb-0">Henner Müller</p>
+                    <p>Mobile: +39 328 2211212</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col gap-6 items-start justify-start relative shrink-0" data-name="right-content">
+            <div className="content-stretch flex flex-col gap-6 items-center justify-start relative shrink-0 w-full" data-name="locations">
+              <div className="content-stretch flex flex-col gap-1 items-center justify-start relative shrink-0 w-full" data-name="section-header">
+                <div className="font-['Segoe_UI:Bold',_sans-serif] leading-[0] not-italic relative shrink-0 text-[#576250] text-[32px] text-center tracking-[-0.64px] w-full">
+                  <p className="leading-[40px]">Wedding Locations</p>
+                </div>
+              </div>
+            </div>
+            <div className="bg-center bg-cover bg-no-repeat h-[330px] rounded-[8px] shrink-0 w-[393px]" data-name="map_placeholder" style={{ backgroundImage: `url('${imgMapPlaceholder}')` }} />
+            <div className="content-stretch flex flex-col gap-2 items-start justify-start relative shrink-0 w-full" data-name="head-office">
+              <div className="font-['Segoe_UI:Regular',_sans-serif] leading-[0] not-italic relative shrink-0 text-[#90998b] text-[16px] text-center w-full">
+                <p className="leading-[24px]">Siegelsbacher Mühle</p>
+              </div>
+              <div className="content-stretch flex flex-col font-['Segoe_UI:Regular',_sans-serif] gap-2 items-center justify-start leading-[0] not-italic relative shrink-0 text-[#90998b] text-[16px] text-center w-full">
+                <div className="leading-[24px] relative shrink-0 w-[248px]">
+                  <p className="mb-0">Grundmühle 1</p>
+                  <p>74936 Siegelsbach</p>
+                </div>
+                <div className="leading-[24px] relative shrink-0 w-[248px]">
+                  <p className="mb-0">Phone: +39 (0)322 221211</p>
+                  <p>Mobile: +39 328 2211212</p>
+                </div>
+              </div>
+            </div>
+            <div className="absolute left-[155px] size-7 top-[179px]" data-name="icon/location">
+              <div className="absolute inset-[14.58%_22.92%_12.5%_22.92%]">
+                <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 16 21">
+                  <path d={svgPaths.p19a9d400} fill="var(--fill-0, #B8C1B2)" id="Vector 1" />
+                </svg>
+              </div>
+              <div className="absolute inset-[8.33%_20.83%]" data-name="Vector">
+                <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 17 24">
+                  <path d={svgPaths.p1aed7370} fill="var(--fill-0, #424242)" id="Vector" />
+                </svg>
+              </div>
+              <div className="absolute inset-[27.08%_39.58%_52.08%_39.58%]" data-name="Vector">
+                <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 6 6">
+                  <path d={svgPaths.p143a6b80} fill="var(--fill-0, #424242)" id="Vector" />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function SectionHeader() {
+  return (
+    <div className="content-stretch flex flex-col gap-4 items-center justify-start leading-[0] not-italic relative shrink-0 text-center w-full" data-name="section-header">
+      <div className="font-['Segoe_UI:Regular',_sans-serif] relative shrink-0 text-[#90998b] text-[40px] w-[512px]">
+        <p className="leading-[24px]">We’re getting Married</p>
+      </div>
+      <div className="font-['Segoe_UI:Bold',_sans-serif] min-w-full relative shrink-0 text-[#576250] text-[56px] tracking-[-1.12px]" style={{ width: "min-content" }}>
+        <p className="leading-[64px]">{`Melis & Karim`}</p>
+      </div>
+      <div className="font-['Segoe_UI:Bold',_sans-serif] min-w-full relative shrink-0 text-[#576250] text-[32px] tracking-[-0.64px]" style={{ width: "min-content" }}>
+        <p className="leading-[40px]">8.08.2026</p>
+      </div>
+    </div>
+  );
+}
+
+function HeroContent() {
+  return (
+    <div className="absolute bottom-[46.15%] content-stretch flex flex-col gap-14 items-center justify-start left-1/2 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-464px_-385px] mask-size-[1440px_1012px] top-[38.04%] translate-x-[-50%]" data-name="hero-content" style={{ maskImage: `url('${imgHeroContent}')` }}>
+      <SectionHeader />
+    </div>
+  );
+}
+
+function Content() {
+  return <div className="absolute box-border content-stretch flex items-center justify-between left-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[0px] mask-size-[1440px_1012px] overflow-clip px-16 py-6 top-0 w-[1440px]" data-name="content" style={{ maskImage: `url('${imgHeroContent}')` }} />;
+}
+
+function Frame9() {
+  return (
+    <div className="content-stretch flex flex-col h-[1614px] items-center justify-start relative shrink-0 w-full">
+      <div className="h-[1012px] relative shrink-0 w-full" data-name="hero">
+        <div className="absolute bg-center bg-cover bg-no-repeat bottom-[3.43%] left-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[0px_117.544px] mask-size-[1440px_1012px] right-0 top-[-11.62%]" data-name="img_placeholder" style={{ backgroundImage: `url('${imgImgPlaceholder}')`, maskImage: `url('${imgHeroContent}')` }} />
+        <HeroContent />
+        <Content />
+      </div>
+      <div className="content-stretch flex flex-col gap-2.5 items-start justify-end relative shrink-0 w-[1100px]" data-name="services">
+        <Services />
+      </div>
+    </div>
+  );
+}
+
+function SectionContent() {
+  return (
+    <div className="basis-0 bg-[#585b56] box-border content-stretch flex flex-col gap-8 grow h-full items-center justify-start leading-[0] min-h-px min-w-px not-italic pb-0 pt-[41px] px-0 relative shrink-0 text-center" data-name="section-content">
+      <div className="font-['Segoe_UI:Bold',_sans-serif] relative shrink-0 text-[32px] text-nowrap text-white tracking-[-0.64px]">
+        <p className="leading-[40px] whitespace-pre">Geschenke</p>
+      </div>
+      <div className="font-['Segoe_UI:Regular',_sans-serif] relative shrink-0 text-[24px] text-neutral-50 w-[776px]">
+        <p className="leading-[31px]">Ihr möchtet uns beschenken? Dann freuen wir uns über einen Zuschuss für unseren Start ins Eheleben.</p>
+      </div>
+    </div>
+  );
+}
+
+function Frame7() {
+  return (
+    <div className="content-stretch flex h-[227px] items-start justify-start relative shrink-0 w-full">
+      <SectionContent />
+    </div>
+  );
+}
+
+export default function LandingWeb() {
+  return (
+    <div className="bg-white content-stretch flex flex-col gap-[126px] items-start justify-start relative size-full" data-name="landing (web)">
+      <Frame9 />
+      <div className="content-stretch flex flex-col gap-6 items-center justify-start relative shrink-0 w-full" data-name="locations">
+        <Locations />
+      </div>
+      <div className="bg-white relative shrink-0 w-full" data-name="contact-us">
+        <ContactUs />
+      </div>
+      <Frame7 />
+    </div>
+  );
+}
