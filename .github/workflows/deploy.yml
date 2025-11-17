@@ -19,6 +19,12 @@ jobs:
     runs-on: ubuntu-latest
     env:
       VITE_WEDDING_PASSWORD: ${{ secrets.VITE_WEDDING_PASSWORD }}
+      VITE_PHONE_GERALDINE: ${{ secrets.VITE_PHONE_GERALDINE }}
+      VITE_PHONE_MARIE: ${{ secrets.VITE_PHONE_MARIE }}
+      VITE_PHONE_MANDY: ${{ secrets.VITE_PHONE_MANDY }}
+      VITE_PHONE_INES: ${{ secrets.VITE_PHONE_INES }}
+      VITE_PHONE_JOUNES: ${{ secrets.VITE_PHONE_JOUNES }}
+      VITE_PHONE_HENNER: ${{ secrets.VITE_PHONE_HENNER }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -48,8 +54,6 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    env:
-      VITE_WEDDING_PASSWORD: ${{ secrets.VITE_WEDDING_PASSWORD }}
     needs: build
     steps:
       - name: Deploy to GitHub Pages
