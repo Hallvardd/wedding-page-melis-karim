@@ -74,7 +74,7 @@ const translations = {
     "location.title": "Hochzeitslocation",
     "location.name": "Siegelsbacher Mühle",
     "location.description": "Historische Mühle mit rustikalem Charme",
-    "location.address": "Mühlenstraße 15 74936 Siegelsbach ألمانيا",
+    "location.address": "Mühlenstraße 15 74936 Siegelsbach",
     "location.route": "Route planen",
     "location.mapNote":
       "Klicken Sie auf die Karte für eine detaillierte Ansicht",
