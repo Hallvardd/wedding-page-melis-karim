@@ -26,7 +26,7 @@ export function WeddingCountdown() {
   const generateCalendarFile = () => {
     const event = {
       start: "20260808T150000",
-      end: "20260809T020000",
+      end: "20260809T050000",
       title: "Hochzeit Melis & Karim",
       description: "Wir freuen uns, diesen besonderen Tag mit Euch zu feiern!",
       location:
@@ -298,4 +298,3 @@ export function WeddingCountdown() {
     </div>
   );
 }
-
