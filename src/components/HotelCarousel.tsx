@@ -61,7 +61,7 @@ export function HotelCarousel() {
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % hotels.length);
-    }, 5000); // Auto-advance every 5 seconds
+    }, 8000); // Auto-advance every 5 seconds
 
     return () => clearInterval(timer);
   }, []);
