@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useLanguage } from "../contexts/LanguageContext";
 
@@ -51,6 +51,7 @@ export function HotelCarousel() {
   const { t, language } = useLanguage();
   const [currentIndex, setCurrentIndex] = useState(0);
   const [scrollY, setScrollY] = useState(0);
+  const timerRef = useRef<NodeJS.Timeout | null>(null);
 
   useEffect(() => {
     const handleScroll = () => setScrollY(window.scrollY);
@@ -58,22 +59,30 @@ export function HotelCarousel() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  useEffect(() => {
-    const timer = setInterval(() => {
+  const startAutoAdvance = () => {
+    if (timerRef.current) clearInterval(timerRef.current);
+    timerRef.current = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % hotels.length);
-    }, 8000); // Auto-advance every 5 seconds
+    }, 8000);
+  };
 
-    return () => clearInterval(timer);
-  }, []);
+  useEffect(() => {
+    startAutoAdvance();
+    return () => {
+      if (timerRef.current) clearInterval(timerRef.current);
+    };
+  }, [currentIndex]);
 
   const nextSlide = () => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % hotels.length);
+    startAutoAdvance();
   };
 
   const prevSlide = () => {
     setCurrentIndex(
       (prevIndex) => (prevIndex - 1 + hotels.length) % hotels.length,
     );
+    startAutoAdvance();
   };
 
   return (
