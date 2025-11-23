@@ -20,21 +20,25 @@ export function ElegantWeddingParty() {
   const bridesMaids = [
     {
       name: "weddingParty.geraldine",
+      language: "🇩🇪 🇫🇷 ",
       phone: import.meta.env.VITE_PHONE_GERALDINE,
       image: imgGeraldine,
     },
     {
       name: "weddingParty.marie",
+      language: "🇩🇪  🇬🇧 ",
       phone: import.meta.env.VITE_PHONE_MARIE,
       image: imgMarie,
     },
     {
       name: "weddingParty.mandy",
+      language: "🇩🇪  🇬🇧 ",
       phone: import.meta.env.VITE_PHONE_MANDY,
       image: imgMandy,
     },
     {
       name: "weddingParty.ines",
+      language: "🇩🇪  🇬🇧 ",
       phone: import.meta.env.VITE_PHONE_INES,
       image: imgInes,
     },
@@ -43,11 +47,13 @@ export function ElegantWeddingParty() {
   const groomsMen = [
     {
       name: "weddingParty.jounes",
+      language: "🇩🇪 ",
       phone: import.meta.env.VITE_PHONE_JOUNES,
       image: imgJounes,
     },
     {
       name: "weddingParty.henner",
+      language: "🇩🇪 ",
       phone: import.meta.env.VITE_PHONE_HENNER,
       image: imgHenner,
     },
@@ -57,7 +63,7 @@ export function ElegantWeddingParty() {
     person,
     index,
   }: {
-    person: { name: string; phone: string; image?: string };
+    person: { name: string; language: string; phone: string; image?: string };
     index: number;
   }) => {
     const translatedName = t(person.name);
@@ -116,6 +122,7 @@ export function ElegantWeddingParty() {
             <h4 className="text-gray-800 text-[15px] sm:text-[16px] font-semibold mb-3 tracking-[-0.01em] leading-[1.3] min-h-[1.3em]">
               {translatedName}
             </h4>
+            <p>{person.language}</p>
           </div>
 
           <div
@@ -217,4 +224,3 @@ export function ElegantWeddingParty() {
     </div>
   );
 }
-
