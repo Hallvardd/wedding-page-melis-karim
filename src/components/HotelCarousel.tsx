@@ -136,11 +136,11 @@ export function HotelCarousel() {
                       }}
                     />
                     <div className="flex flex-col lg:flex-row justify-between items-start gap-8 relative z-10">
-                      <div className="flex-1 text-center lg:text-left">
+                      <div className="flex-1 text-left px-6">
                         <h3 className="text-gray-800 text-[20px] sm:text-[24px] font-semibold mb-4 tracking-[-0.015em] leading-[1.2]">
                           {hotel.name}
                         </h3>
-                        <div className="text-gray-700 text-[16px] sm:text-[17px] leading-[1.47] space-y-3 font-normal tracking-[0.011em]">
+                        <div className="text-gray-700 text-[16px] sm:text-[17px] leading-[1.47] space-y-3 font-normal tracking-[0.011em] ">
                           <p>{hotel.address}</p>
                           <p>
                             {t("hotels.phone")}:{" "}
