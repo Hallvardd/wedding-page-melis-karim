@@ -25,7 +25,7 @@ export function WeddingCountdown() {
   // Function to generate .ics calendar file
   const generateCalendarFile = () => {
     const event = {
-      start: "20260808T150000",
+      start: "20260808T143000",
       end: "20260809T050000",
       title: "Hochzeit Melis & Karim",
       description: "Wir freuen uns, diesen besonderen Tag mit Euch zu feiern!",
