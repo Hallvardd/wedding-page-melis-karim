@@ -203,7 +203,7 @@ export function ElegantWeddingParty() {
                             }}
                         >
                             <h3 className="text-gray-900 text-[18px] sm:text-[20px] font-semibold tracking-[-0.015em] leading-[1.2] mb-4">
-                                {t("weddingParty.karimName")}' {t("weddingParty.groomsmen")}
+                                {t("weddingParty.karimName")} {t("weddingParty.groomsmen")}
                             </h3>
                             <div className="w-20 h-0.5 bg-gray-200 mx-auto"></div>
                         </div>

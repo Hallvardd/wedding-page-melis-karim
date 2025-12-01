@@ -97,7 +97,7 @@ const translations = {
         "weddingParty.bridesmaids": "Brautjungfern",
         "weddingParty.groomsmen": "Trauzeugen",
         "weddingParty.melisName": "Melis\'",
-        "weddingParty.karimName": "Karims",
+        "weddingParty.karimName": "Karims\'",
         "weddingParty.geraldine": "Geraldine Henneberger-Reiss",
         "weddingParty.marie": "Marie Beuse",
         "weddingParty.mandy": "Mandy Holland",
@@ -110,7 +110,7 @@ const translations = {
         "gifts.description":
             "Das schönste Geschenk ist Eure Anwesenheit an unserem besonderen Tag.",
         "gifts.description2":
-            "Möchtet Ihr uns beschenken, freuen wir uns am meisten über einen kleinen Geldbeitrag zu unserer gemeinsamen Zukunft. Bitte habt Verständnis, dass wir auf andere Aufmerksamkeiten, wie beispielsweise Blumen, gerne verzichten möchten.",
+            "Möchtet Ihr uns beschenken, frneuen wir uns am meisten über einen kleinen Geldbeitrag zu unserer gemeinsamen Zukunft. Bitte habt Verständnis, dass wir auf andere Aufmerksamkeiten, wie beispielsweise Blumen, gerne verzichten möchten.",
         "gifts.thanks": "Vielen Dank\nMelis und Karim\n🖤",
     },
     tr: {
@@ -192,7 +192,7 @@ const translations = {
         "weddingParty.bridesmaids": "Nedimeleri",
         "weddingParty.groomsmen": "Sağdıçları",
         "weddingParty.melisName": "Melis\'in",
-        "weddingParty.karimName": "Karims",
+        "weddingParty.karimName": "Karim\'in",
         "weddingParty.geraldine": "Geraldine Henneberger-Reiss",
         "weddingParty.marie": "Marie Beuse",
         "weddingParty.mandy": "Mandy Holland",
