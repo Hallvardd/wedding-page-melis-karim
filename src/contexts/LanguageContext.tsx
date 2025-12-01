@@ -133,14 +133,13 @@ const translations = {
     "countdown.minutes": "Dakika",
     "countdown.seconds": "Saniye",
     "countdown.invitationTitle": "Katılın!",
-    "countdown.until":
-      "Bu özel günü sizinle kutlamaktan çok mutluyuz ve sizi düğünümüze davet ediyoruz.",
+    "countdown.until": "Sizleride aramızda görmekten mutluluk duyarız.",
     "countdown.rsvpDeadline":
       "Lütfen 31.01.2026 tarihine kadar katılıp katılmayacağınızı bize bildirin.",
     "countdown.date": "08 Ağustos 2026",
     "countdown.location": "Siegelsbacher Mühle, Siegelsbach",
     "countdown.rsvpButton": "Şimdi cevap verin",
-    "countdown.saveButton": "Takvimime Ekle",
+    "countdown.saveButton": "Takvimime ekle",
 
     // Services/Program
     "services.title": "Program",
@@ -151,10 +150,9 @@ const translations = {
     "services.ceremonyTime": "15:30",
     "services.dinner": "Akşam Yemeği",
     "services.dinnerTime":
-      "Tüm misafirler için özenle hazırlanmış, her damak tadına uygun lezzetler.",
+      "Her damak tadına uygun lezzetler eşliğinde, kadehlerimizi kaldırıp gece boyunca kutlamaya devam edeceğiz.",
     "services.party": "Eğlence",
-    "services.partyTime":
-      "Ardından birlikte kadeh kaldırıp akşam boyunca kutlamaya devam edeceğiz.",
+    "services.partyTime": ".",
 
     // Hotels
     "hotels.title": "Yakındaki Oteller",
@@ -191,8 +189,8 @@ const translations = {
     "weddingParty.teamTitle": "Düğün Ekibimiz",
     "weddingParty.description":
       "Düğünle ilgili tüm sorularınız için sağdıçlarımız size yardımcı olmaktan mutluluk duyar. Onlarla iletişime geçmekten çekinmeyin!",
-    "weddingParty.bridesmaids": "Nedimeler",
-    "weddingParty.groomsmen": "Sağdıçlar",
+    "weddingParty.bridesmaids": "Nedimeleri",
+    "weddingParty.groomsmen": "Sağdıçları",
     "weddingParty.melisName": "Melis",
     "weddingParty.karimName": "Karims",
     "weddingParty.geraldine": "Geraldine Henneberger-Reiss",
@@ -203,10 +201,10 @@ const translations = {
     "weddingParty.henner": "Henner Müller",
 
     // Gift Registry
-    "gifts.title": "Hediyeler",
-    "gifts.description": "En güzel hediye, özel günümüzde varlığınızdır.",
+    "gifts.title": "Hediye",
+    "gifts.description": "En güzel hediye özel günümüzde varlığınızdır.",
     "gifts.description2":
-      "Bize hediye vermek isterseniz, ortak geleceğimize ve evlilik hayatımızın başlangıcına küçük bir maddi katkıdan çok mutlu oluruz. Çiçek gibi diğer dikkat işaretlerinden hoşnutlukla vazgeçmek istediğimizi lütfen anlayışla karşılayın.",
+      "Çicek göndermemenizi rica ediyoruz.\nYine de hediye vermek isterseniz balayı fonumuza katkıda bulunabilirsiniz",
     "gifts.thanks": "Çok teşekkür ederiz\nMelis ve Karim\n🖤",
   },
   ar: {
