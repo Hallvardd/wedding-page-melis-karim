@@ -86,10 +86,10 @@ export function ElegantLocation() {
                     <div className="flex items-center gap-4">
                       <Phone className="w-6 h-6 text-gray-700" />
                       <a
-                        href="tel:+497262123456"
+                        href="tel:+49 (7262) 1744"
                         className="text-gray-800 text-[17px] leading-[1.47] font-medium tracking-[0.011em] hover:text-gray-600 transition-colors"
                       >
-                        +49 7262 123456
+                        +49 (7262) 1744
                       </a>
                     </div>
                   </div>
@@ -243,4 +243,3 @@ export function ElegantLocation() {
     </div>
   );
 }
-

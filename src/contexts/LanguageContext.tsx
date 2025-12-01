@@ -45,6 +45,8 @@ const translations = {
 
     // Services/Program
     "services.title": "Programm",
+    "services.instructions":
+      "Alle Programmpunkte finden in der Siegelbacher Mühle statt.",
     "services.reception": "Sektempfang",
     "services.receptionTime": "14:30 Uhr",
     "services.ceremony": "Freie Trauung",
@@ -61,7 +63,6 @@ const translations = {
     "hotels.distance": "zur Hochzeitslocation",
     "hotels.perNight": "/Nacht",
     "hotels.website": "Webseite besuchen",
-    "hotels.phone": "Telefon",
 
     // Dresscode
     "dresscode.title": "Dresscode",
@@ -74,7 +75,7 @@ const translations = {
     "location.title": "Hochzeitslocation",
     "location.name": "Siegelsbacher Mühle",
     "location.description": "Historische Mühle mit rustikalem Charme",
-    "location.address": "Mühlenstraße 15 74936 Siegelsbach",
+    "location.address": "Grundmühle 1, 74936 Siegelsbach",
     "location.route": "Route planen",
     "location.mapNote":
       "Klicken Sie auf die Karte für eine detaillierte Ansicht",
@@ -97,7 +98,7 @@ const translations = {
     "weddingParty.groomsmen": "Trauzeugen",
     "weddingParty.melisName": "Melis",
     "weddingParty.karimName": "Karims",
-    "weddingParty.geraldine": "Geraldine Reiss-Henneberger",
+    "weddingParty.geraldine": "Geraldine Henneberger-Reiss",
     "weddingParty.marie": "Marie Beuse",
     "weddingParty.mandy": "Mandy Holland",
     "weddingParty.ines": "Ines Geuder",
@@ -126,7 +127,7 @@ const translations = {
     "hero.date": "Tarih: 08.08.2026",
 
     // Countdown
-    "countdown.title": "Melis ve Karim'in hayatlarını birleştirmelerine kadar.",
+    "countdown.title": "Melis ve Karim'in bu özel gününe kadar kalan süre.",
     "countdown.days": "Gün",
     "countdown.hours": "Saat",
     "countdown.minutes": "Dakika",
@@ -143,6 +144,7 @@ const translations = {
 
     // Services/Program
     "services.title": "Program",
+    "services.instructions": "Tüm program Siegelsbacher Mühle'de yapılacaktır.",
     "services.reception": "Şampanya İkramı",
     "services.receptionTime": "14:30",
     "services.ceremony": "Nikah Töreni",
@@ -159,7 +161,6 @@ const translations = {
     "hotels.distance": "düğün mekanına",
     "hotels.perNight": "/Gece",
     "hotels.website": "Web sitesini ziyaret edin",
-    "hotels.phone": "Telefon",
 
     // Dresscode
     "dresscode.title": "Kıyafet Kodu",
@@ -172,7 +173,7 @@ const translations = {
     "location.title": "Düğün Mekanı",
     "location.name": "Siegelsbacher Mühle",
     "location.description": "Rustik çekiciliğe sahip tarihi değirmen",
-    "location.address": "Mühlenstraße 15 74936 Siegelsbach Almanya",
+    "location.address": "Grundmühle 1, 74936 Siegelsbach Almanya",
     "location.route": "Yol tarifi alın",
     "location.mapNote": "Detaylı görünüm için haritaya tıklayınız",
     "location.car": "Arabayla",
@@ -194,7 +195,7 @@ const translations = {
     "weddingParty.groomsmen": "Sağdıçlar",
     "weddingParty.melisName": "Melis",
     "weddingParty.karimName": "Karims",
-    "weddingParty.geraldine": "Geraldine Reiss-Henneberger",
+    "weddingParty.geraldine": "Geraldine Henneberger-Reiss",
     "weddingParty.marie": "Marie Beuse",
     "weddingParty.mandy": "Mandy Holland",
     "weddingParty.ines": "Ines Geuder",
@@ -238,6 +239,8 @@ const translations = {
 
     // Services/Program
     "services.title": "البرنامج",
+    "services.instructions":
+      "سيتم تنفيذ البرنامج بأكمله في  Siegelsbacher Mühle.",
     "services.reception": "استقبال الشمبانيا",
     "services.receptionTime": "14:30",
     "services.ceremony": "حفل الزفاف",
@@ -253,7 +256,6 @@ const translations = {
     "hotels.distance": "من موقع الزفاف",
     "hotels.perNight": "/ليلة",
     "hotels.website": "زيارة الموقع",
-    "hotels.phone": "هاتف",
 
     // Dresscode
     "dresscode.title": "الزي المطلوب",
@@ -264,7 +266,7 @@ const translations = {
     "location.title": "موقع الزفاف",
     "location.name": "Siegelsbacher Mühle",
     "location.description": "طاحونة تاريخية ذات طابع ريفي",
-    "location.address": "Mühlenstraße 15 74936 Siegelsbach Almanيا",
+    "location.address": "Grundmühle 1, 74936 Siegelsbach Almanيا",
     "location.route": "خطط المسار",
     "location.mapNote": "انقر على الخريطة للحصول على عرض تفصيلي",
     "location.car": "بالسيارة",
@@ -286,7 +288,7 @@ const translations = {
     "weddingParty.groomsmen": "شهود العريس",
     "weddingParty.melisName": "مليس",
     "weddingParty.karimName": "كريم",
-    "weddingParty.geraldine": "جيرالدين رايس-هينيبيرجر",
+    "weddingParty.geraldine": "جيرالدين هينبرغر-ريس",
     "weddingParty.marie": "ماري بويزه",
     "weddingParty.mandy": "ماندي هولاند",
     "weddingParty.ines": "إينيس جيودر",

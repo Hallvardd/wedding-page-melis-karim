@@ -5,7 +5,6 @@ import { useLanguage } from "../contexts/LanguageContext";
 interface Hotel {
   name: string;
   address: string;
-  phone: string;
   distance: string;
   price: string;
   website: string;
@@ -15,7 +14,6 @@ const hotels: Hotel[] = [
   {
     name: "Pension Spatzennest",
     address: "Gundelsheimer Str. 34, 74906 Bad Rappenau-Heinsheim",
-    phone: "+49 7264 4096066",
     distance: "10",
     price: "ca. 75€",
     website: "https://www.booking.com/Share-JOyv0N1",
@@ -23,7 +21,6 @@ const hotels: Hotel[] = [
   {
     name: "Best Western Hotel",
     address: "Buchäckering 42, Bad Rappenau",
-    phone: "+49 7264 9610",
     distance: "8",
     price: "ca. 90€",
     website:
@@ -32,7 +29,6 @@ const hotels: Hotel[] = [
   {
     name: "Adler Gaststube Hotel",
     address: "Babstadterstraße 26, Bad Rappenau",
-    phone: "+49 7264 959160",
     distance: "8",
     price: "ca. 90€",
     website: "https://www.hotel-adler-bad-rappenau.de",
@@ -40,7 +36,6 @@ const hotels: Hotel[] = [
   {
     name: "Motel am Fürfelder Schloss",
     address: "Wilhelm-Hauff-Straße 52, Bad Rappenau",
-    phone: "+49 7264 959950",
     distance: "12",
     price: "102€",
     website: "https://www.motel-fuerfeld.de",
@@ -151,18 +146,6 @@ export function HotelCarousel() {
                         </h3>
                         <div className="text-gray-700 text-[16px] sm:text-[17px] leading-[1.47] space-y-3 font-normal tracking-[0.011em] ">
                           <p>{hotel.address}</p>
-                          <p>
-                            {t("hotels.phone")}:{" "}
-                            <span
-                              onClick={(e) => {
-                                e.stopPropagation();
-                                window.location.href = `tel:${hotel.phone}`;
-                              }}
-                              className="text-gray-700 hover:text-gray-600 transition-colors font-medium cursor-pointer"
-                            >
-                              {hotel.phone}
-                            </span>
-                          </p>
                           <p className="text-gray-600">
                             {hotel.distance}{" "}
                             {language === "de" ? "Minuten" : "dakika"}{" "}

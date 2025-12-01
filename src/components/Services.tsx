@@ -33,6 +33,12 @@ export function Services() {
           </h2>
         </div>
 
+        <div className="text-center mb-20">
+          <p className="text-gray-700 text-[17px] sm:text-[18px] md:text-[19px] font-normal leading-[1.47] tracking-[0.011em] max-w-3xl mx-auto">
+            {t("services.instructions")}
+          </p>
+        </div>
+
         {/* Service Cards with refined glassmorphism */}
         <div className="max-w-6xl mx-auto">
           <div
@@ -156,4 +162,3 @@ export function Services() {
     </div>
   );
 }
-

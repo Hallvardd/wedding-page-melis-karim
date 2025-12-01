@@ -26,7 +26,7 @@ export function ElegantWeddingParty() {
     },
     {
       name: "weddingParty.marie",
-      language: "🇩🇪  🇬🇧 ",
+      language: "🇩🇪  🇬🇧  🇫🇷 ",
       phone: import.meta.env.VITE_PHONE_MARIE,
       image: imgMarie,
     },
