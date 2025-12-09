@@ -63,6 +63,7 @@ const translations = {
         "hotels.distance": "zur Hochzeitslocation",
         "hotels.perNight": "/Nacht",
         "hotels.website": "Webseite besuchen",
+        "hotels.minutes": "Minuten",
 
         // Dresscode
         "dresscode.title": "Dresscode",
@@ -159,6 +160,7 @@ const translations = {
         "hotels.distance": "düğün mekanına",
         "hotels.perNight": "/Gece",
         "hotels.website": "Web sitesini ziyaret edin",
+        "hotels.minutes": "dakika",
 
         // Dresscode
         "dresscode.title": "Kıyafet Kodu",
@@ -254,6 +256,7 @@ const translations = {
         "hotels.distance": "من موقع الزفاف",
         "hotels.perNight": "/ليلة",
         "hotels.website": "زيارة الموقع",
+        "hotels.minutes": "دقيقة",
 
         // Dresscode
         "dresscode.title": "الزي المطلوب",
@@ -347,6 +350,7 @@ const translations = {
         "hotels.distance": "to the wedding venue",
         "hotels.perNight": "/Night",
         "hotels.website": "Visit website",
+        "hotels.minutes": "minutes",
 
         // Dresscode
         "dresscode.title": "Dress Code",
