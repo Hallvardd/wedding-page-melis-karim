@@ -6,7 +6,7 @@ import {
     ReactNode,
 } from "react";
 
-type Language = "de" | "tr" | "ar";
+type Language = "de" | "tr" | "ar" | "en";
 
 interface LanguageContextType {
     language: Language;
@@ -133,7 +133,7 @@ const translations = {
         "countdown.minutes": "Dakika",
         "countdown.seconds": "Saniye",
         "countdown.invitationTitle": " ",
-        "countdown.until": "Sizleride aramızda görmekten mutluluk duyarız.",
+        "countdown.until": "Sizleri düğünümüzde aramızda görmekten mutluluk duyarız.",
         "countdown.rsvpDeadline":
             "Lütfen 31.01.2026 tarihine kadar katılıp katılmayacağınızı bize bildirin.",
         "countdown.date": "08 Ağustos 2026",
@@ -188,7 +188,7 @@ const translations = {
         "weddingParty.contact": "İletişim",
         "weddingParty.teamTitle": "Düğün Ekibimiz",
         "weddingParty.description":
-            "Düğünle ilgili tüm sorularınız için sağdıçlarımız size yardımcı olmaktan mutluluk duyar. Onlarla iletişime geçmekten çekinmeyin!",
+            "Düğünle ilgili tüm sorularınız için nedimelerimiz ve sağdıçlarımız size yardımcı olmaktan mutluluk duyarlar. Onlarla iletişime geçmekten çekinmeyin!",
         "weddingParty.bridesmaids": "Nedimeleri",
         "weddingParty.groomsmen": "Sağdıçları",
         "weddingParty.melisName": "Melis\'in",
@@ -300,6 +300,101 @@ const translations = {
             "إذا أردتم إهداءنا شيئاً، فسنكون سعداء جداً بمساهمة مالية صغيرة لمستقبلنا المشترك. نرجو تفهمكم أننا نفضل عدم تلقي هدايا أخرى مثل الزهور.",
         "gifts.thanks": "شكراً جزيلاً\nمليس و كريم 🖤",
     },
+    en: {
+        // Password Protection
+        "password.title": "Melis & Karim",
+        "password.enter": "Please enter the password",
+        "password.placeholder": "Password",
+        "password.wrong": "Wrong password",
+        "password.login": "Login",
+
+        // Hero
+        "hero.saveTheDate": "Save the Date",
+        "hero.names": "Melis and Karim",
+        "hero.date": "On: August 8, 2026",
+
+        // Countdown
+        "countdown.title": "Until we tie the knot for life.",
+        "countdown.days": "Days",
+        "countdown.hours": "Hours",
+        "countdown.minutes": "Minutes",
+        "countdown.seconds": "Seconds",
+        "countdown.invitationTitle": "Save the Date",
+        "countdown.until":
+            "We are truly excited to celebrate this special day with you, and warmly invite you to our wedding.",
+        "countdown.rsvpDeadline": "Please RSVP by January 31, 2026.",
+        "countdown.date": "August 8, 2026",
+        "countdown.location": "Siegelsbacher Mühle, Siegelsbach",
+        "countdown.rsvpButton": "RSVP now",
+        "countdown.saveButton": "Add to calendar",
+
+        // Services/Program
+        "services.title": "Program",
+        "services.instructions": "All events take place at Siegelbacher Mühle.",
+        "services.reception": "Champagne Reception",
+        "services.receptionTime": "2:30 PM",
+        "services.ceremony": "Wedding Ceremony",
+        "services.ceremonyTime": "3:30 PM",
+        "services.dinner": "Dinner",
+        "services.dinnerTime":
+            "There will be something for every taste and everyone's needs are catered for.",
+        "services.party": "Party",
+        "services.partyTime":
+            "Afterward, we'll raise a glass together and celebrate into the evening.",
+
+        // Hotels
+        "hotels.title": "Nearby Hotels",
+        "hotels.distance": "to the wedding venue",
+        "hotels.perNight": "/Night",
+        "hotels.website": "Visit website",
+
+        // Dresscode
+        "dresscode.title": "Dress Code",
+        "dresscode.description":
+            "We look forward to an elegant celebration and kindly ask for festive attire.",
+        "dresscode.note": "Please avoid white – that's reserved for the bride!",
+
+        // Location
+        "location.title": "Wedding Venue",
+        "location.name": "Siegelsbacher Mühle",
+        "location.description": "Historic mill with rustic charm",
+        "location.address": "Grundmühle 1, 74936 Siegelsbach",
+        "location.route": "Get directions",
+        "location.mapNote": "Click the map for a detailed view",
+        "location.car": "By car",
+        "location.carDescription":
+            "Free parking is available on site. Approx. 15 minutes from the A6 Sinsheim exit.",
+        "location.public": "Public transport",
+        "location.publicDescription":
+            "Sinsheim train station, then bus 782 to Siegelsbach center. 5-minute walk to the venue.",
+
+        // Wedding Party
+        "weddingParty.title": "Wedding Party",
+        "weddingParty.bride": "Bride",
+        "weddingParty.groom": "Groom",
+        "weddingParty.contact": "Contact",
+        "weddingParty.teamTitle": "Our Wedding Team",
+        "weddingParty.description":
+            "Our wedding party is happy to answer any questions about the wedding. Feel free to contact them!",
+        "weddingParty.bridesmaids": "Bridesmaids",
+        "weddingParty.groomsmen": "Groomsmen",
+        "weddingParty.melisName": "Melis'",
+        "weddingParty.karimName": "Karim's",
+        "weddingParty.geraldine": "Geraldine Henneberger-Reiss",
+        "weddingParty.marie": "Marie Beuse",
+        "weddingParty.mandy": "Mandy Holland",
+        "weddingParty.ines": "Ines Geuder",
+        "weddingParty.jounes": "Jounes Bökenkamp",
+        "weddingParty.henner": "Henner Müller",
+
+        // Gift Registry
+        "gifts.title": "Gifts",
+        "gifts.description":
+            "The best gift of all is your presence on our special day.",
+        "gifts.description2":
+            "If you wish to give us a gift, we would really appreciate a small contribution to our future together.",
+        "gifts.thanks": "Thank you so much\nMelis and Karim\n🖤",
+    },
 };
 
 const LanguageContext = createContext<LanguageContextType | undefined>(
@@ -332,8 +427,17 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
                 const countryCode = data.country_code?.toLowerCase();
 
                 if (countryCode) {
-                    // Map countries to languages
                     if (
+                        countryCode === "gb" || // United Kingdom
+                        countryCode === "us" || // United States
+                        countryCode === "au" || // Australia
+                        countryCode === "ca" || // Canada
+                        countryCode === "ie" || // Ireland
+                        countryCode === "nz" // New Zealand
+                    ) {
+                        setLanguageState("en");
+                    } // Map countries to languages
+                    else if (
                         countryCode === "de" ||
                         countryCode === "at" ||
                         countryCode === "ch"
@@ -391,6 +495,8 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
                 setLanguageState("tr");
             } else if (browserLanguage.startsWith("ar")) {
                 setLanguageState("ar");
+            } else if (browserLanguage.startsWith("en")) {
+                setLanguageState("en");
             } else {
                 setLanguageState("de");
             }
