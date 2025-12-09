@@ -311,7 +311,7 @@ const translations = {
         // Hero
         "hero.saveTheDate": "Save the Date",
         "hero.names": "Melis and Karim",
-        "hero.date": "On: August 8, 2026",
+        "hero.date": "August 8, 2026",
 
         // Countdown
         "countdown.title": "Until we tie the knot for life.",
