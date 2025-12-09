@@ -46,7 +46,7 @@ const translations = {
         // Services/Program
         "services.title": "Programm",
         "services.instructions":
-            "Alle Programmpunkte finden in der Siegelbacher Mühle statt.",
+            "Alle Programmpunkte finden in der Siegelsbacher Mühle statt.",
         "services.reception": "Sektempfang",
         "services.receptionTime": "14:30 Uhr",
         "services.ceremony": "Freie Trauung",
@@ -95,7 +95,7 @@ const translations = {
         "weddingParty.teamTitle": "Unser Brautpaar-Team",
         "weddingParty.description":
             "Unsere Trauzeugen stehen Euch gerne für alle Fragen rund um die Hochzeit zur Verfügung. Zögert nicht, sie zu kontaktieren!",
-        "weddingParty.bridesmaids": "Brautjungfern",
+        "weddingParty.bridesmaids": "Trauzeuginnen",
         "weddingParty.groomsmen": "Trauzeugen",
         "weddingParty.melisName": "Melis\'",
         "weddingParty.karimName": "Karims\'",
@@ -111,7 +111,7 @@ const translations = {
         "gifts.description":
             "Das schönste Geschenk ist Eure Anwesenheit an unserem besonderen Tag.",
         "gifts.description2":
-            "Möchtet Ihr uns beschenken, frneuen wir uns am meisten über einen kleinen Geldbeitrag zu unserer gemeinsamen Zukunft. Bitte habt Verständnis, dass wir auf andere Aufmerksamkeiten, wie beispielsweise Blumen, gerne verzichten möchten.",
+            "Möchtet Ihr uns beschenken, freuen wir uns am meisten über einen kleinen Geldbetrag für unsere gemeinsame Zukunft. Bitte habt Verständnis, dass wir auf andere Aufmerksamkeiten, wie beispielsweise Blumen, gerne verzichten möchten.",
         "gifts.thanks": "Vielen Dank\nMelis und Karim\n🖤",
     },
     tr: {
@@ -206,7 +206,7 @@ const translations = {
         "gifts.title": "Hediye",
         "gifts.description": "En güzel hediye özel günümüzde varlığınızdır.",
         "gifts.description2":
-            "Çicek göndermemenizi rica ediyoruz.\nYine de hediye vermek isterseniz balayı fonumuza katkıda bulunabilirsiniz",
+            "Çicek göndermemenizi rica ediyoruz.\nYine de hediye vermek isterseniz balayı fonumuza katkıda bulunabilirsiniz.",
         "gifts.thanks": "Çok teşekkür ederiz\nMelis ve Karim\n🖤",
     },
     ar: {
@@ -317,7 +317,7 @@ const translations = {
         "hero.date": "August 8, 2026",
 
         // Countdown
-        "countdown.title": "Until we tie the knot for life.",
+        "countdown.title": "Until we unite in the bond of marriage.",
         "countdown.days": "Days",
         "countdown.hours": "Hours",
         "countdown.minutes": "Minutes",
@@ -332,18 +332,18 @@ const translations = {
         "countdown.saveButton": "Add to calendar",
 
         // Services/Program
-        "services.title": "Program",
-        "services.instructions": "All events take place at Siegelbacher Mühle.",
-        "services.reception": "Champagne Reception",
+        "services.title": "Programme",
+        "services.instructions": "All events take place at Siegelsbacher Mühle.",
+        "services.reception": "Sparkling Wine Reception",
         "services.receptionTime": "2:30 PM",
-        "services.ceremony": "Wedding Ceremony",
+        "services.ceremony": "Symbolic Wedding Ceremony",
         "services.ceremonyTime": "3:30 PM",
         "services.dinner": "Dinner",
         "services.dinnerTime":
-            "There will be something for every taste and everyone's needs are catered for.",
+            "Everything is taken care of for all our guests, and there is something to suit every taste.",
         "services.party": "Party",
         "services.partyTime":
-            "Afterward, we'll raise a glass together and celebrate into the evening.",
+            "Afterward, we'll raise our glasses and continue celebrating into the evening.",
 
         // Hotels
         "hotels.title": "Nearby Hotels",
@@ -355,8 +355,8 @@ const translations = {
         // Dresscode
         "dresscode.title": "Dress Code",
         "dresscode.description":
-            "We look forward to an elegant celebration and kindly ask for festive attire.",
-        "dresscode.note": "Please avoid white – that's reserved for the bride!",
+            "We look forward to an elegant celebration and kindly request festive attire.",
+        "dresscode.note": "Please avoid wearing white – that's reserved for the bride!",
 
         // Location
         "location.title": "Wedding Venue",
@@ -379,9 +379,9 @@ const translations = {
         "weddingParty.contact": "Contact",
         "weddingParty.teamTitle": "Our Wedding Team",
         "weddingParty.description":
-            "Our wedding party is happy to answer any questions about the wedding. Feel free to contact them!",
-        "weddingParty.bridesmaids": "Bridesmaids",
-        "weddingParty.groomsmen": "Groomsmen",
+            "Our maids of honor and best men are happy to answer any questions about the wedding. Feel free to contact them!",
+        "weddingParty.bridesmaids": "Maids of Honor",
+        "weddingParty.groomsmen": "Best Men",
         "weddingParty.melisName": "Melis'",
         "weddingParty.karimName": "Karim's",
         "weddingParty.geraldine": "Geraldine Henneberger-Reiss",
@@ -394,9 +394,9 @@ const translations = {
         // Gift Registry
         "gifts.title": "Gifts",
         "gifts.description":
-            "The best gift of all is your presence on our special day.",
+            "The greatest gift is your presence on our special day.",
         "gifts.description2":
-            "If you wish to give us a gift, we would really appreciate a small contribution to our future together.",
+            "If you wish to give us a gift, we would really appreciate a small monetary contribution to our future together. We kindly ask for your understanding that we would prefer to refrain from other gestures, such as flowers.",
         "gifts.thanks": "Thank you so much\nMelis and Karim\n🖤",
     },
 };
