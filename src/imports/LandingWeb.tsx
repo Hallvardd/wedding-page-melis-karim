@@ -17,16 +17,8 @@ import { HotelCarousel } from "../components/HotelCarousel";
 import { useLanguage } from "../contexts/LanguageContext";
 
 
-function SectionHeader() {
+function SectionHeader({ scrollY }: { scrollY: number }) {
     const { t } = useLanguage();
-    const [scrollY, setScrollY] = useState(0);
-
-    useEffect(() => {
-        const handleScroll = () => setScrollY(window.scrollY);
-        window.addEventListener('scroll', handleScroll, { passive: true });
-        return () => window.removeEventListener('scroll', handleScroll);
-    }, []);
-
     return (
         <div className="flex flex-col gap-6 items-center justify-center relative shrink-0 text-center w-full px-6 max-w-4xl mx-auto" data-name="section-header">
             {/* Save the Date label */}
@@ -67,7 +59,7 @@ function SectionHeader() {
     );
 }
 
-function HeroContent({ scrollY }) {
+function HeroContent({ scrollY }: { scrollY: number }) {
     return (
         <div
             className="absolute inset-0 flex flex-col items-center justify-center"
@@ -86,7 +78,7 @@ function HeroContent({ scrollY }) {
                     filter: `blur(${Math.min(scrollY * 0.01, 2)}px)`
                 }}
             >
-                <SectionHeader />
+                <SectionHeader scrollY={scrollY} />
             </div>
         </div>
     );
@@ -96,7 +88,7 @@ function Content() {
     return <div className="absolute box-border content-stretch flex items-center justify-between left-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat overflow-clip px-4 sm:px-8 md:px-16 py-6 top-0 w-full" data-name="content" style={{ maskImage: `url('${imgHeroContent}')` }} />;
 }
 
-function Frame9({ scrollY }) {
+function Frame9({ scrollY }: { scrollY: number }) {
     return (
         <div className="content-stretch flex flex-col h-[900px] items-center justify-start relative shrink-0 w-full overflow-hidden">
             {/* Apple-style gradient background */}
@@ -190,12 +182,12 @@ export default function LandingWeb() {
                     willChange: 'transform'
                 }}
             >
-                <ElegantLocation />
+                <ElegantLocation scrollY={scrollY} />
             </section>
 
             {/* Hotels Carousel */}
             <section className="w-full py-16 md:py-24">
-                <HotelCarousel />
+                <HotelCarousel scrollY={scrollY} />
             </section>
 
             {/* Dresscode */}
@@ -206,7 +198,7 @@ export default function LandingWeb() {
                     willChange: 'transform'
                 }}
             >
-                <Dresscode />
+                <Dresscode scrollY={scrollY} />
             </section>
 
             {/* Wedding Party Contact */}
@@ -218,7 +210,7 @@ export default function LandingWeb() {
                     willChange: 'transform'
                 }}
             >
-                <ElegantWeddingParty />
+                <ElegantWeddingParty scrollY={scrollY} />
             </section>
 
             {/* Gift Registry */}
@@ -229,7 +221,7 @@ export default function LandingWeb() {
                     willChange: 'transform'
                 }}
             >
-                <GiftRegistry />
+                <GiftRegistry scrollY={scrollY} />
             </section>
         </div>
     );

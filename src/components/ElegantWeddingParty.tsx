@@ -7,15 +7,8 @@ import imgMarie from "figma:asset/2f5e7cae21ced5fb191f3b4bea3eb8a4b18a55b9.png";
 import imgInes from "figma:asset/a2063f8d37d62140ea97ddd45a7a387490170b66.png";
 import imgGeraldine from "figma:asset/f055ed4d330297e7c3c47ac352bd0507e6e263cb.png";
 
-export function ElegantWeddingParty() {
+export function ElegantWeddingParty({ scrollY }: { scrollY: number }) {
     const { t } = useLanguage();
-    const [scrollY, setScrollY] = useState(0);
-
-    useEffect(() => {
-        const handleScroll = () => setScrollY(window.scrollY);
-        window.addEventListener("scroll", handleScroll, { passive: true });
-        return () => window.removeEventListener("scroll", handleScroll);
-    }, []);
 
     const bridesMaids = [
         {
