@@ -1,24 +1,17 @@
 import { useEffect, useState } from 'react';
 import { useLanguage } from '../contexts/LanguageContext';
 
-export function Dresscode({ scrollY }: { scrollY: number }) {
+export function Dresscode() {
     const { t } = useLanguage();
 
     return (
         <div
             className="w-full flex flex-col items-center justify-center"
-            style={{
-                transform: `translateY(${Math.min(scrollY * 0.03, 15)}px)`,
-                willChange: 'transform'
-            }}
         >
             <div className="container max-w-7xl mx-auto px-6 sm:px-8">
                 <div
                     className="text-center mb-20"
                     data-name="section-header"
-                    style={{
-                        transform: `translateY(${Math.min(scrollY * 0.05, 20)}px)`
-                    }}
                 >
                     <h2 className="text-gray-900 text-[28px] sm:text-[32px] md:text-[36px] lg:text-[40px] font-semibold tracking-[-0.025em] leading-[0.95] mb-8">
                         {t('dresscode.title')}
@@ -28,9 +21,6 @@ export function Dresscode({ scrollY }: { scrollY: number }) {
 
                 <div
                     className="max-w-4xl mx-auto"
-                    style={{
-                        transform: `translateY(${Math.min(scrollY * 0.02, 10)}px)`
-                    }}
                 >
                     <div
                         className="backdrop-blur-xl rounded-3xl p-12 sm:p-16 md:p-20 relative overflow-hidden text-center"

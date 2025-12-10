@@ -9,7 +9,7 @@ interface TimeLeft {
     seconds: number;
 }
 
-export function WeddingCountdown({ scrollY }: { scrollY: number }) {
+export function WeddingCountdown() {
     const { t } = useLanguage();
     const [timeLeft, setTimeLeft] = useState<TimeLeft>({
         days: 0,
@@ -99,9 +99,6 @@ export function WeddingCountdown({ scrollY }: { scrollY: number }) {
         return (
             <div
                 className="max-w-4xl mx-auto px-4 text-center"
-                style={{
-                    transform: `translateY(${Math.min(scrollY * 0.02, 10)}px)`,
-                }}
             >
                 <div className="grid grid-cols-2 sm:grid-cols-4 gap-6">
                     {[0, 0, 0, 0].map((_, index) => (
@@ -140,9 +137,6 @@ export function WeddingCountdown({ scrollY }: { scrollY: number }) {
     return (
         <div
             className="max-w-4xl mx-auto px-4 text-center"
-            style={{
-                transform: `translateY(${Math.min(scrollY * 0.02, 10)}px)`,
-            }}
         >
             {/* Countdown Grid */}
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-6 mb-12">

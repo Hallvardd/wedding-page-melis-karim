@@ -1,16 +1,12 @@
 import { useEffect, useState } from 'react';
 import { useLanguage } from '../contexts/LanguageContext';
 
-function SectionContent({ scrollY }: { scrollY: number }) {
+function SectionContent() {
     const { t } = useLanguage();
 
     return (
         <div
             className="w-full py-32 px-8"
-            style={{
-                transform: `translateY(${Math.min(scrollY * 0.02, 10)}px)`,
-                willChange: 'transform'
-            }}
         >
             <div className="max-w-5xl mx-auto text-center">
                 {/* Section Title */}
@@ -58,10 +54,10 @@ function SectionContent({ scrollY }: { scrollY: number }) {
     );
 }
 
-export function GiftRegistry({ scrollY }: { scrollY: number }) {
+export function GiftRegistry() {
     return (
         <div className="w-full">
-            <SectionContent scrollY={scrollY} />
+            <SectionContent />
         </div>
     );
 }

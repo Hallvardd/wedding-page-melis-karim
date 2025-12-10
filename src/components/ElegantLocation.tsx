@@ -2,23 +2,16 @@ import { useEffect, useState } from "react";
 import { MapPin, Navigation, Phone, Clock, Car, Train } from "lucide-react";
 import { useLanguage } from "../contexts/LanguageContext";
 
-export function ElegantLocation({ scrollY }: { scrollY: number }) {
+export function ElegantLocation() {
     const { t } = useLanguage();
 
     return (
         <div
             className="w-full"
-            style={{
-                transform: `translateY(${Math.min(scrollY * 0.03, 15)}px)`,
-                willChange: "transform",
-            }}
         >
             <div className="container max-w-7xl mx-auto px-6 sm:px-8">
                 <div
                     className="text-center mb-20"
-                    style={{
-                        transform: `translateY(${Math.min(scrollY * 0.05, 20)}px)`,
-                    }}
                 >
                     <h2 className="text-gray-900 text-[28px] sm:text-[32px] md:text-[36px] lg:text-[40px] font-semibold tracking-[-0.025em] leading-[0.95] mb-8">
                         {t("location.title")}
@@ -28,9 +21,6 @@ export function ElegantLocation({ scrollY }: { scrollY: number }) {
                 <div className="max-w-6xl mx-auto">
                     <div
                         className="grid lg:grid-cols-2 gap-16 items-stretch justify-center"
-                        style={{
-                            transform: `translateY(${Math.min(scrollY * 0.02, 10)}px)`,
-                        }}
                     >
                         {/* Location Details */}
                         <div className="space-y-8">

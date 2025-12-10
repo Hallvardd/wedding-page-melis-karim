@@ -5,7 +5,7 @@ import imgRectangle15 from "figma:asset/c486c20bb8dc95ef4762040ee76a7564a8502a5f
 import imgRectangle16 from "figma:asset/b824857bbafa17237dc53f9610e5e7ef7b72d703.png";
 import { useLanguage } from "../contexts/LanguageContext";
 
-export function Services({ scrollY }: { scrollY: number }) {
+export function Services() {
     const { t } = useLanguage();
 
     return (
@@ -16,9 +16,6 @@ export function Services({ scrollY }: { scrollY: number }) {
             {/* Section Title */}
             <div
                 className="container mx-auto px-6 sm:px-8 max-w-7xl relative z-10"
-                style={{
-                    transform: `translateY(${Math.min(scrollY * 0.08, 30)}px)`,
-                }}
             >
                 <div className="text-center mb-20">
                     <h2 className="text-gray-900 text-[28px] sm:text-[32px] md:text-[36px] lg:text-[40px] font-semibold tracking-[-0.025em] leading-[0.95] mb-8">
@@ -36,10 +33,6 @@ export function Services({ scrollY }: { scrollY: number }) {
                 <div className="max-w-6xl mx-auto">
                     <div
                         className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12 items-stretch justify-center"
-                        style={{
-                            transform: `translateY(${Math.min(scrollY * 0.05, 20)}px)`,
-                            gridAutoRows: "1fr",
-                        }}
                     >
                         {/* Sektempfang Card */}
                         <div
@@ -52,7 +45,6 @@ export function Services({ scrollY }: { scrollY: number }) {
                                 WebkitBackdropFilter: "blur(20px)",
                                 boxShadow: "0 1px 3px -1px rgba(0, 0, 0, 0.02)",
                                 border: "1px solid rgba(255, 255, 255, 0.8)",
-                                transform: `translateY(${Math.sin(scrollY * 0.01) * 8}px)`,
                                 transitionDelay: "0ms",
                             }}
                         >
@@ -88,7 +80,6 @@ export function Services({ scrollY }: { scrollY: number }) {
                                 WebkitBackdropFilter: "blur(20px)",
                                 boxShadow: "0 1px 3px -1px rgba(0, 0, 0, 0.02)",
                                 border: "1px solid rgba(255, 255, 255, 0.8)",
-                                transform: `translateY(${Math.sin(scrollY * 0.01 + 2) * 8}px)`,
                                 transitionDelay: "150ms",
                             }}
                         >
@@ -124,7 +115,6 @@ export function Services({ scrollY }: { scrollY: number }) {
                                 WebkitBackdropFilter: "blur(20px)",
                                 boxShadow: "0 1px 3px -1px rgba(0, 0, 0, 0.02)",
                                 border: "1px solid rgba(255, 255, 255, 0.8)",
-                                transform: `translateY(${Math.sin(scrollY * 0.01 + 4) * 8}px)`,
                                 transitionDelay: "300ms",
                             }}
                         >

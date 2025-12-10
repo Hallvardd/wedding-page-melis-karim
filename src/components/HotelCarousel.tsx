@@ -45,14 +45,7 @@ const hotels: Hotel[] = [
 export function HotelCarousel() {
     const { t, language } = useLanguage();
     const [currentIndex, setCurrentIndex] = useState(0);
-    const [scrollY, setScrollY] = useState(0);
     const timerRef = useRef<NodeJS.Timeout | null>(null);
-
-    useEffect(() => {
-        const handleScroll = () => setScrollY(window.scrollY);
-        window.addEventListener("scroll", handleScroll, { passive: true });
-        return () => window.removeEventListener("scroll", handleScroll);
-    }, []);
 
     const startAutoAdvance = () => {
         if (timerRef.current) clearInterval(timerRef.current);
@@ -83,18 +76,11 @@ export function HotelCarousel() {
     return (
         <div
             className="w-full flex items-center justify-center"
-            style={{
-                transform: `translateY(${Math.min(scrollY * 0.04, 20)}px)`,
-                willChange: "transform",
-            }}
         >
             <div className="max-w-7xl mx-auto px-6 sm:px-8 w-full">
                 {/* Section Header */}
                 <div
                     className="text-center mb-20"
-                    style={{
-                        transform: `translateY(${Math.min(scrollY * 0.06, 25)}px)`,
-                    }}
                 >
                     <h2 className="text-gray-900 text-[28px] sm:text-[32px] md:text-[36px] lg:text-[40px] font-semibold tracking-[-0.025em] leading-[0.95] mb-8">
                         {t("hotels.title")}
@@ -114,9 +100,6 @@ export function HotelCarousel() {
                                 <div
                                     key={index}
                                     className="w-full flex-shrink-0"
-                                    style={{
-                                        transform: `translateY(${Math.sin((scrollY + index * 100) * 0.01) * 5}px)`,
-                                    }}
                                 >
                                     <a
                                         href={hotel.website}

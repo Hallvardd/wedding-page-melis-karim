@@ -7,7 +7,7 @@ import imgMarie from "figma:asset/2f5e7cae21ced5fb191f3b4bea3eb8a4b18a55b9.png";
 import imgInes from "figma:asset/a2063f8d37d62140ea97ddd45a7a387490170b66.png";
 import imgGeraldine from "figma:asset/f055ed4d330297e7c3c47ac352bd0507e6e263cb.png";
 
-export function ElegantWeddingParty({ scrollY }: { scrollY: number }) {
+export function ElegantWeddingParty() {
     const { t } = useLanguage();
 
     const bridesMaids = [
@@ -75,7 +75,6 @@ export function ElegantWeddingParty({ scrollY }: { scrollY: number }) {
                     WebkitBackdropFilter: "blur(20px)",
                     boxShadow: "0 1px 3px -1px rgba(0, 0, 0, 0.02)",
                     border: "1px solid rgba(255, 255, 255, 0.8)",
-                    transform: `translateY(${Math.sin((scrollY + index * 100) * 0.01) * 5}px)`,
                     transitionDelay: `${index * 100}ms`,
                 }}
             >
@@ -140,17 +139,10 @@ export function ElegantWeddingParty({ scrollY }: { scrollY: number }) {
     return (
         <div
             className="w-full"
-            style={{
-                transform: `translateY(${Math.min(scrollY * 0.02, 10)}px)`,
-                willChange: "transform",
-            }}
         >
             <div className="container max-w-7xl mx-auto px-6 sm:px-8">
                 <div
                     className="text-center mb-20"
-                    style={{
-                        transform: `translateY(${Math.min(scrollY * 0.04, 20)}px)`,
-                    }}
                 >
                     <h2 className="text-gray-900 text-[28px] sm:text-[32px] md:text-[36px] lg:text-[40px] font-semibold tracking-[-0.025em] leading-[0.95] mb-8">
                         {t("weddingParty.teamTitle")}
@@ -165,9 +157,6 @@ export function ElegantWeddingParty({ scrollY }: { scrollY: number }) {
                     <div className="mb-20">
                         <div
                             className="text-center mb-12"
-                            style={{
-                                transform: `translateY(${Math.min(scrollY * 0.03, 15)}px)`,
-                            }}
                         >
                             <h3 className="text-gray-900 text-[18px] sm:text-[20px] font-semibold tracking-[-0.015em] leading-[1.2] mb-4">
                                 {t("weddingParty.melisName")} {t("weddingParty.bridesmaids")}
@@ -177,9 +166,6 @@ export function ElegantWeddingParty({ scrollY }: { scrollY: number }) {
 
                         <div
                             className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 justify-items-center"
-                            style={{
-                                transform: `translateY(${Math.min(scrollY * 0.02, 10)}px)`,
-                            }}
                         >
                             {bridesMaids.map((person, index) => (
                                 <PersonCard key={index} person={person} index={index} />
@@ -191,9 +177,6 @@ export function ElegantWeddingParty({ scrollY }: { scrollY: number }) {
                     <div>
                         <div
                             className="text-center mb-12"
-                            style={{
-                                transform: `translateY(${Math.min(scrollY * 0.03, 15)}px)`,
-                            }}
                         >
                             <h3 className="text-gray-900 text-[18px] sm:text-[20px] font-semibold tracking-[-0.015em] leading-[1.2] mb-4">
                                 {t("weddingParty.karimName")} {t("weddingParty.groomsmen")}
@@ -203,9 +186,6 @@ export function ElegantWeddingParty({ scrollY }: { scrollY: number }) {
 
                         <div
                             className="grid sm:grid-cols-2 gap-8 max-w-2xl mx-auto justify-items-center"
-                            style={{
-                                transform: `translateY(${Math.min(scrollY * 0.02, 10)}px)`,
-                            }}
                         >
                             {groomsMen.map((person, index) => (
                                 <PersonCard key={index} person={person} index={index + 4} />
